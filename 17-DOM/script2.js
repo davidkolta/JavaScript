@@ -12,9 +12,6 @@ console.log(boxes);
 boxes[0]
 boxes.item(0)
 
-for(let i = 0; i<  boxes.item;length; i ++){
-    const element = boxes
-}
 
 //** querySelector  */ universal way of getting elements 
 
