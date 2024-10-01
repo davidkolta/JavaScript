@@ -1,0 +1,11 @@
+1. common js modules
+module.exports and require ()
+
+2. ES6 modules
+export and import
+
+how to run JS code?
+
+-Node JS
+-Browser  
+-Extentions (not used)

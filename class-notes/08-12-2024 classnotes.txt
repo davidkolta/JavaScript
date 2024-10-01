@@ -1,0 +1,11 @@
+cd
+
+
+echo. > filename 
+
+
+
+$ git config --global user.name "davidkolta"
+$ git config --global user.email davidkoltart@gmail.com
+$ git config --global init.defaultBranch main
+.

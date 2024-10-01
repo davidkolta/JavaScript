@@ -1,0 +1,1 @@
+const {CharacterHelper} = require()
