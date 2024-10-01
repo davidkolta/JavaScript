@@ -268,5 +268,19 @@ findUniques([], [1, 2, 3, 2])  -> [1, 2, 3]
 findUniques([1, 2, 3, 4], [3, 4, 5, 5])  -> [1, 2, 5]
 findUniques([8, 9], [9, 8, 9])  -> []
 findUniques([-1, -2], [1, 2])  -> [-1, -2, 1, 2]
-
 */
+
+function findUniques(array1, array2){
+
+   const combined = [ ...array1, ...array2];
+
+   const frequency = combined.reduce((acc, num) => {
+    acc[num] = (acc[num] || 0)+1
+   })
+ }
+
+ console.log(findUniques([], []));  // []
+console.log(findUniques([], [1, 2, 3, 2]));  // [1, 2, 3]
+console.log(findUniques([1, 2, 3, 4], [3, 4, 5, 5]));  // [1, 2, 5]
+console.log(findUniques([8, 9], [9, 8, 9]));  // []
+console.log(findUniques([-1, -2], [1, 2]));
