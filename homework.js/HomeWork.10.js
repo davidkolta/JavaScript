@@ -152,6 +152,7 @@ isArmstrong(153)  -> true
 isArmstrong(1111)  -> false
 
 */
+console.log('\n---------------TASK4---------------\n');
 
 
 
@@ -172,6 +173,7 @@ reverseNumber(0)  -> 0
 reverseNumber(111)  -> 111
 
 */
+console.log('\n---------------TASK5---------------\n');
 
 function reverseNumber(number){
 
@@ -206,6 +208,7 @@ doubleOrTriple([0], false)  -> [0]
 doubleOrTriple([-1, 0, 1], true)  -> [-2, 0, 2]
 
 */
+console.log('\n---------------TASK6---------------\n');
 
 function doubleOrTriple(arr, double){
 let result = [];
@@ -240,6 +243,7 @@ splitString("Hello", 6)  -> ""
 splitString("12", 1)  -> "1 2"
 
 */
+console.log('\n---------------TASK7---------------\n');
 
 function splitString(str, num){
 
